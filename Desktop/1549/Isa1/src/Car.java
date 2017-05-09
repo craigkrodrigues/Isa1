@@ -1,14 +1,14 @@
 
 public class Car {
-int Cap=100;
+int Cap;
+public Car(int cap)
+{
+	
+	this.Cap=cap;
+}
 public int getEngineCapacity()
 {
-	int z;
-	z=30;
-	
-	
-	
-	
-	return Cap-z;
+	System.out.println("the capacity is " + Cap/1000 );
+	return Cap/1000;
 }
 }
